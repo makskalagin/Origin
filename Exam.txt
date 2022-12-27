@@ -1,0 +1,12 @@
+Dim a As Single
+Dim b As Single
+Dim c As Single
+Dim e As Single
+
+Private Sub CommandButton1_Click()
+a = CSng(TextBox1.Text)
+b = CSng(TextBox2.Text)
+c = CSng(TextBox3.Text)
+e = a * b * c
+TextBox4.Text = CStr(e)
+End Sub
